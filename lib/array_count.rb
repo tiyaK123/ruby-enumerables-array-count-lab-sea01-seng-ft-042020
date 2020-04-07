@@ -3,7 +3,7 @@ def count_strings(array)
   count = 0 
   num = 0 
   while array.length > count do 
-     if array[count].to_a? :String 
+     if array[count].to_s? :String 
      num += 1 
    end
      array[count]
