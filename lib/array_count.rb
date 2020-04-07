@@ -3,7 +3,7 @@ def count_strings(array)
   count = 0 
   num = 0 
   while array.length > count do 
-     if array[count].to_str 
+     if array[count].is? string
      num += 1 
    end
      array[count]
